@@ -11,6 +11,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Pega os dados do telefone
     $numero_tel = $_POST['numero_tel'];
 
-
+    $id_endereco = inserirEndereco($rua_endereco, $bairro_endereco, $cep_endereco);
 
 }
